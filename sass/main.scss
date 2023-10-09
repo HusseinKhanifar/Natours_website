@@ -2,16 +2,17 @@
 @import "abstract/mixin";
 @import "abstract/variables";
 
-@import "base/animations";
-@import "base/typography";
-@import "base/utilities";
-@import "base/base";
-
-@import "components/button";
+@import "base/animations"; 
+@import "base/typography"; 
+@import "base/utilities";   
+@import "base/base"; 
+ 
+@import "components/bg-video";   
+@import "components/button"; 
 @import "components/card";
 @import "components/composition";
 @import "components/feature-box";
-@import "components/story";
+@import "components/story"; 
 
 @import "layout/header";
 @import "layout/grid";
