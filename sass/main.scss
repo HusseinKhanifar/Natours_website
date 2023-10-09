@@ -1,0 +1,27 @@
+@import "abstract/functions";
+@import "abstract/mixin";
+@import "abstract/variables";
+
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+@import "base/base";
+
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/story";
+
+@import "layout/header";
+@import "layout/grid";
+
+@import "pages/home";
+
+.header__text-box {
+  position: absolute;
+  top: 40%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
