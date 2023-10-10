@@ -1,24 +1,24 @@
 @import "abstract/functions";
 @import "abstract/mixin";
 @import "abstract/variables";
-
+  
 @import "base/animations"; 
 @import "base/typography";   
 @import "base/utilities";     
 @import "base/base";    
      
-@import "components/bg-video";     
+@import "components/bg-video";      
 @import "components/button";   
 @import "components/card"; 
 @import "components/composition"; 
 @import "components/feature-box";
-@import "components/form";   
+@import "components/form";    
 @import "components/story";   
 
 @import "layout/header"; 
 @import "layout/grid";
 
-@import "pages/home";
+@import "pages/home"; 
  
 .header__text-box {
   position: absolute;
