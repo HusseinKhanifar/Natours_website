@@ -1,34 +1,32 @@
 @import "abstract/functions";
 @import "abstract/mixin";
-@import "abstract/variables"; 
+@import "abstract/variables";
  
-@import "base/animations";   
-@import "base/typography";     
-@import "base/utilities";     
-@import "base/base";  
- 
-@import "components/bg-video";      
+@import "base/animations";
+@import "base/typography"; 
+@import "base/utilities";
+@import "base/base"; 
+
+@import "components/bg-video";
 @import "components/button";
-@import "components/card"; 
+@import "components/card";
 @import "components/composition";
 @import "components/feature-box";
-@import "components/form"; 
-@import "components/story"; 
-   
-@import "layout/footer"; 
-@import "layout/header"; 
+@import "components/form";
+@import "components/popup";
+@import "components/story";
+
+@import "layout/footer";
+@import "layout/header";
 @import "layout/navigation";
 @import "layout/grid";
- 
+
 @import "pages/home";
- 
+
 .header__text-box {
   position: absolute;
-  top: 50%; 
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
- 
- 
